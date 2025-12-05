@@ -45,7 +45,7 @@ cd $APP_DIR
 nohup sudo -u ubuntu $APP_DIR/venv/bin/streamlit run app.py \
   --server.port 8501 \
   --server.address 0.0.0.0 \
-  > /var/log/streamlit.log 2>&1 &
+  > /home/ubuntu/streamlit.log 2>&1 &
 
 echo "========== 설치 완료 =========="
 echo "Streamlit 앱이 백그라운드에서 실행 중입니다"
