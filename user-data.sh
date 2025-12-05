@@ -42,7 +42,7 @@ sudo -u ubuntu $APP_DIR/venv/bin/pip install -r $APP_DIR/requirements.txt
 # Step 7: Streamlit 백그라운드 실행
 echo "Step 7: Streamlit 앱 시작..."
 cd $APP_DIR
-nohup sudo -u ubuntu $APP_DIR/venv/bin/streamlit run app.py \
+nohup sudo -u ubuntu $APP_DIR/venv/bin/streamlit run $APP_DIR/app.py \
   --server.port 8501 \
   --server.address 0.0.0.0 \
   > /home/ubuntu/streamlit.log 2>&1 &
@@ -50,5 +50,3 @@ nohup sudo -u ubuntu $APP_DIR/venv/bin/streamlit run app.py \
 echo "========== 설치 완료 =========="
 echo "Streamlit 앱이 백그라운드에서 실행 중입니다"
 date
-EOF
-
