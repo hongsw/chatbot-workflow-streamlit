@@ -1,8 +1,8 @@
-# 💬 Chatbot template
+# 💬 Chatbot Workflow Streamlit
 
 A simple Streamlit app that shows how to build a chatbot using OpenAI's GPT-3.5.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chatbot-template.streamlit.app/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chatbot-workflow.streamlit.app/)
 
 ### How to run it on your own machine
 
